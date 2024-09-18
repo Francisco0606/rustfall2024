@@ -10,15 +10,15 @@ fn celsius_to_fahrenheit(c: f64) -> f64 {
 }
 
 fn main() {
-    let mut tempF: f64 = 32.0;
-    let tempC: f64 = 16.0;
-    println!("Celcius: {:.1} to Fahrenheit: {:.1}", tempC, celsius_to_fahrenheit(tempC));
-    println!("Fahrenheit: {:.1} to Celcius: {:.1}", tempF, fahrenheit_to_celsius(tempF));
+    let mut temp_f: f64 = 32.0;
+    let temp_c: f64 = 16.0;
+    println!("Celcius: {:.1} to Fahrenheit: {:.1}", temp_c, celsius_to_fahrenheit(temp_c));
+    println!("Fahrenheit: {:.1} to Celcius: {:.1}", temp_f, fahrenheit_to_celsius(temp_f));
     //loop 5 times
     for _ in 0..5 {
         //add 1 and display
-        tempF += 1.0;
-        println!("Fahrenheit: {:.1} to Celcius: {:.1}", tempF, fahrenheit_to_celsius(tempF));
+        temp_f += 1.0;
+        println!("Fahrenheit: {:.1} to Celcius: {:.1}", temp_f, fahrenheit_to_celsius(temp_f));
     }
 }
 
