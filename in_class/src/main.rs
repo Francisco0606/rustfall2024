@@ -69,5 +69,5 @@ fn main() {
 
     //Move info from file and read
     let file = read_from_file("user_info.txt");
-    println!("{}", file);
+    println!("\n\nOutput\n{}", file);
 }
