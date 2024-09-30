@@ -1,0 +1,3 @@
+Make: a
+Model: b
+Color: c
