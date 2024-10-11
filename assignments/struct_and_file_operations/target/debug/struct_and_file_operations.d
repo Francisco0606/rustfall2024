@@ -1,0 +1,1 @@
+/workspaces/rustfall2024/assignments/struct_and_file_operations/target/debug/struct_and_file_operations: /workspaces/rustfall2024/assignments/struct_and_file_operations/src/main.rs
